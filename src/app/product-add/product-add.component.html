@@ -1,0 +1,18 @@
+<div class="container"><form style="text-align: left;">
+   
+    <div class="mb-3">
+        <label for="productname" class="form-label">Product-Name</label>
+        <input type="text" class="form-control" [(ngModel)]= "products.productname" name="products.productname" />
+    </div>
+    <div class="mb-3">
+        <label for="quantity" class="form-label">Quantity</label>
+        <input type="text" class="form-control" [(ngModel)]="products.quantity" name="products.quantity" />
+    </div>
+    <div class="mb-3">
+        <label for="price" class="form-label">Price</label>
+        <input type="number" class="form-control" [(ngModel)]="products.price" name="products.price" />
+    </div>
+    <input type="submit" name="ADD" class="btn btn-success" (click)="addProduct()" />
+</form>
+</div>
+

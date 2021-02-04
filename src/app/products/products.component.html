@@ -1,0 +1,39 @@
+<head>
+     </head>
+<body><div class="container">
+    
+        <input class="form-control me-2" type="search" placeholder="Search"  aria-label="Search" >
+        <a class="btn btn-warning" [routerLink]="['/product-search',]">Search</a>
+      
+    <table class="table">
+        
+<thead style="background-color: lightgreen;">
+<tr style="font-size: 20px; font-weight: bold; ">
+<th>ID</th>
+<th>Product Name</th>
+<th>Price</th>
+<th>Quantity</th>
+<th>Actions</th>
+
+</tr>
+
+</thead>
+
+<tbody style="box-sizing: border-box;">
+<tr *ngFor="let product of productList">
+
+<td>{{product.productid}}</td>
+<td>{{product.productname}}</td>
+<td>{{product.price}}</td>
+<td>{{product.quantity}}</td>
+<td>
+    <a class="btn btn-primary" [routerLink]="['/product-cart', product.productid]">Add To Cart</a>
+   
+   
+</td>
+</tr>
+</tbody>
+
+
+
+</table></div></body>

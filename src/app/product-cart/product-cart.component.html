@@ -1,0 +1,39 @@
+<div class="container">
+    
+    
+  
+<table class="table">
+    
+<thead>
+<tr>
+
+<th>Product Name</th>
+<th>Price</th>
+<th>Quantity</th>
+
+
+</tr>
+
+</thead>
+
+<tbody>
+<tr *ngFor="let products of product">
+
+
+<td>{{products.productname}}</td>
+<td>{{products.price}}</td>
+<td>{{products.quantity}}</td>
+<td>
+
+</td>
+</tr>
+</tbody>
+</table>
+
+    <a class="nav-link"  class="btn btn-primary" routerLink="/ttt">Proceed to payment</a>
+    <a class="nav-link"  class="btn btn-danger" routerLink="/products">Cancel</a>
+  
+
+  
+
+</div>

@@ -1,0 +1,59 @@
+{
+  "products": [
+    {
+      "productid": 1,
+      "productname": "bread",
+      "quantity": "1 loaf",
+      "price": 20
+    },
+    {
+      "productid": 2,
+      "productname": "rice",
+      "quantity": "1 KG",
+      "price": 45
+    },
+    {
+      "productid": 3,
+      "productname": "pasta",
+      "quantity": "1 pack",
+      "price": 100
+    },
+    {
+      "productid": 4,
+      "productname": "noodles",
+      "quantity": "1 pack",
+      "price": 100
+    },
+    {
+      "productid": 5,
+      "productname": "butter",
+      "quantity": "1 KG",
+      "price": 400
+    },
+    {
+      "productid": 6,
+      "productname": "oots",
+      "quantity": "1 KG",
+      "price": 200
+    },
+    {
+      "productid": 7,
+      "productname": "sugar",
+      "quantity": "1 KG",
+      "price": 50
+    },
+    {
+      "productid": 8,
+      "productname": "oil",
+      "quantity": "1 Litre",
+      "price": 80
+    },
+    {
+
+      "productid": 9,
+      "productname": "ghee",
+      "quantity": "1 Litre",
+      "price": 300
+    }
+  ]
+}
